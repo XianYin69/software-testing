@@ -1,6 +1,6 @@
 ---
 name: software-testing
-version: 0.1.1
+version: 0.1.3
 description: >
   软件测试技能：测试策略/用例设计/自动化执行/失败分诊/质量门禁，
   语言专项派 general-programming·python-expert·cpp-expert，
