@@ -1,0 +1,20 @@
+# 临时产物与缓存（红线：不得入库）
+tmp/
+*.tmp
+*.log
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+.kilo/
+
+# 系统
+Thumbs.db
+.DS_Store
+
+# 附属技能私有伴生仓工作树（本体仓 PUBLIC，仅留 .gitkeep）
+private/
+!private/.gitkeep
