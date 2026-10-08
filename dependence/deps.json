@@ -1,3 +1,96 @@
 {
-  "dependencies": []
+  "dependencies": [
+    {
+      "name": "pytest",
+      "type": "software",
+      "source_url": "https://github.com/pytest-dev/pytest",
+      "docs_url": "https://docs.pytest.org/en/stable/how-to/fixtures.html",
+      "license": "MIT",
+      "version": "9.1.1",
+      "install": "pip install pytest",
+      "checked_at": "2026-10-07",
+      "note": "单元/集成层落框架首选；摘录见 references/上游文献/pytest-夹具与参数化.md"
+    },
+    {
+      "name": "coverage.py",
+      "type": "software",
+      "source_url": "https://github.com/nedbat/coveragepy",
+      "docs_url": "https://coverage.readthedocs.io/en/latest/",
+      "license": "Apache-2.0",
+      "version": "7.16.2",
+      "install": "pip install coverage",
+      "checked_at": "2026-10-07",
+      "note": "覆盖率作证据之一，非放行唯一依据；见 references/上游文献/coverage-覆盖率作为门禁证据.md"
+    },
+    {
+      "name": "unittest（Python 标准库）",
+      "type": "software",
+      "source_url": "https://docs.python.org/3/library/unittest.html",
+      "license": "PSF-2.0",
+      "version": "随解释器（≥3.10）",
+      "install": "无需安装（stdlib）",
+      "checked_at": "2026-10-07",
+      "note": "禁第三方依赖场景的替代框架；见 references/上游文献/unittest-断言与用例组织.md"
+    },
+    {
+      "name": "general-programming",
+      "type": "skill",
+      "source_url": "local://general-programming",
+      "license": "MIT",
+      "version": "local",
+      "install": "SMS 本地技能",
+      "checked_at": "2026-10-07",
+      "note": "写/改被测实现的委派总控（resistance/委托边界）"
+    },
+    {
+      "name": "python-expert",
+      "type": "skill",
+      "source_url": "local://python-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "SMS 本地技能",
+      "checked_at": "2026-10-07",
+      "note": "Python 专项实现委派"
+    },
+    {
+      "name": "cpp-expert",
+      "type": "skill",
+      "source_url": "local://cpp-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "SMS 本地技能",
+      "checked_at": "2026-10-07",
+      "note": "C/C++ 专项实现委派"
+    },
+    {
+      "name": "webapp-testing",
+      "type": "skill",
+      "source_url": "local://webapp-testing",
+      "license": "MIT",
+      "version": "local",
+      "install": "SMS 本地技能",
+      "checked_at": "2026-10-07",
+      "note": "Web 端到端委派，本技能不重复其能力"
+    },
+    {
+      "name": "packaging-and-release",
+      "type": "skill",
+      "source_url": "local://packaging-and-release",
+      "license": "MIT",
+      "version": "local",
+      "install": "SMS 本地技能",
+      "checked_at": "2026-10-07",
+      "note": "门禁通过后的打包/发版/回滚委派"
+    },
+    {
+      "name": "git-remote-management",
+      "type": "skill",
+      "source_url": "local://git-remote-management",
+      "license": "MIT",
+      "version": "local",
+      "install": "SMS 本地技能",
+      "checked_at": "2026-10-07",
+      "note": "push/PR/远端协作委派"
+    }
+  ]
 }
