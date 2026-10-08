@@ -91,6 +91,50 @@
       "install": "SMS 本地技能",
       "checked_at": "2026-10-07",
       "note": "push/PR/远端协作委派"
+    },
+    {
+      "name": "pytest-cov",
+      "type": "software",
+      "source_url": "https://github.com/pytest-dev/pytest-cov",
+      "docs_url": "https://pytest-cov.readthedocs.io/",
+      "license": "MIT",
+      "version": "7.1.0",
+      "install": "pip install pytest-cov",
+      "checked_at": "2026-10-08",
+      "note": "覆盖率采集与 --cov-fail-under 门禁出口（PyPI 实核 7.1.0，requires-python>=3.9）"
+    },
+    {
+      "name": "hypothesis",
+      "type": "software",
+      "source_url": "https://github.com/HypothesisWorks/hypothesis",
+      "docs_url": "https://hypothesis.readthedocs.io",
+      "license": "MPL-2.0",
+      "version": "6.168.5",
+      "install": "pip install hypothesis",
+      "checked_at": "2026-10-08",
+      "note": "属性/随机输入测试，补等价类与边界值之外的路径覆盖；见 references/上游文献/hypothesis-属性测试与收缩.md"
+    },
+    {
+      "name": "mutmut",
+      "type": "software",
+      "source_url": "https://github.com/boxed/mutmut",
+      "docs_url": "https://mutmut.readthedocs.io/",
+      "license": "BSD-3-Clause",
+      "version": "3.8.0",
+      "install": "pip install mutmut",
+      "checked_at": "2026-10-08",
+      "note": "变异测试：证明断言真的会红，覆盖率之外的用例质量证据"
+    },
+    {
+      "name": "nox",
+      "type": "software",
+      "source_url": "https://github.com/wntrblm/nox",
+      "docs_url": "https://nox.thea.codes",
+      "license": "Apache-2.0",
+      "version": "2026.8.17",
+      "install": "pip install nox",
+      "checked_at": "2026-10-08",
+      "note": "多版本会话运行器：CI 挂点的可复现入口（与 tox 二选一，不并存两套）"
     }
   ]
 }

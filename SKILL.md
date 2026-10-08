@@ -1,6 +1,6 @@
 ---
 name: software-testing
-version: 0.1.3
+version: 0.1.5
 description: >
   软件测试技能：测试策略/用例设计/自动化执行/失败分诊/质量门禁，
   语言专项派 general-programming·python-expert·cpp-expert，
@@ -44,5 +44,6 @@ metadata:
   （[委托边界](resistance/委托边界/委托边界.md)）。
 - 悬空链接＝0；所有 `.md` ≤50 行；脚本英文名；缓存不入 skill 目录。
 
+人读入口：[README.md](README.md)；贡献与署名：[CONTRIBUTORS.md](CONTRIBUTORS.md)；
 总览与步骤表：[branch/流程/](branch/流程/流程.md)；分支索引：[branch/](branch/branch.md)；
 约束库总索引：[resistance/](resistance/resistance.md)。

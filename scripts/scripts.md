@@ -20,6 +20,9 @@
 | [sandbox.py](sandbox.py) | 未指定目标时的固定路径沙盒 |
 | [self_update.py](self_update.py) | report／compare／release／clean（唯一写盘通道） |
 
+## 根文档一致性
+清单行与 `scripts/*.py` 须双向对齐（多一行少一行均判漂移），根文档四件必存——
+判据见 [ST-003](../references/编排判例/ST-003-根文档与清单一致性.md)。
 ## 用法约定
 
 `python scripts/<name>.py --help` 看参数；写盘类默认预览，需 `--yes` 才落地。
