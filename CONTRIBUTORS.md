@@ -20,7 +20,7 @@
 3. 判例与经验落 [references/](references/references.md)，须绑真实运行记录＋提交号；
 4. git：功能分支 → 双链辩论＋悬空链接 0 → dev → 整体审查通过 → main，
    推送前须用户确认（[git工作流约束](resistance/git工作流约束/git工作流约束.md)）；
-5. 提 PR／远端协作不在本技能内执行，派 `create-pull-request`。
+5. 提 PR／远端协作不在本技能内执行，派 `pull-request-flow`。
 ## 约定
 - 文档 ≤ 50 行、脚本英文命名、悬空链接＝0、缓存与运行产物不入 skill 目录；
 - 不提交凭据、个人信息、生产数据快照或未授权第三方内容。
